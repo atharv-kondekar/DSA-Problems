@@ -1,4 +1,5 @@
 class Solution {
+    // this code beats in 2ms
     public boolean isPalindrome(String s) {
     
         if( s.isBlank() )
@@ -17,6 +18,7 @@ class Solution {
             int ascii1=(int) a;
             int ascii2=(int) b;
 
+            // It is faster than using the "! Charatcer.LetterOrDigit(a)" beacuse it takes the time pf 1ms for calling method
             if( !(ascii1>=97 && ascii1 <= 122) &&  !( ascii1>= 48 && ascii1 <= 57) )
             {
                 left++;
