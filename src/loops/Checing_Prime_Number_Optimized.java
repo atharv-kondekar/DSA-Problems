@@ -1,37 +1,35 @@
 package loops;
 import java.util.Scanner;
-/*
- * Time Complexity:
- 	O(√n)
- * */
-public class Checking_Prime_Number {
-	
-	public static void main(String [] args ) {
-		Scanner sc = new Scanner(System.in);
+import java.lang.Math;
+
+public class Checing_Prime_Number_Optimized {
+	public static void main(String [] agrs ) {
 		
-		System.out.print("Enetr the Number : ");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Number : ");
+		
 		int n = sc.nextInt();
 		
-		if( n == 2 ) 
-		{
+		if(n == 2 ) {
 			System.out.print("The "+n+" is Prime Number");
 		}
-		else
-		{
+		else {
 			boolean isPrime = true;
 			
-			for(int i = 2 ; i<= n-1 ;i++) {
-				if( n%i == 0) {
-					isPrime=false;
+			for(int i=2 ;i<= Math.sqrt(n) ;i++)
+			{
+				if ( n%i == 0) {
+					isPrime = false;
 				}
 			}
 			
-			if(isPrime == true) {
+			if(isPrime == true ) {
 				System.out.print("The "+n+" is Prime Number");
 			}
 			else {
 				System.out.print("The "+n+" is Not Prime Number");
 			}
+			
 		}
 	}
 }
