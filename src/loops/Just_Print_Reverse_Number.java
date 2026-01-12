@@ -1,7 +1,9 @@
 package loops;
 import java.util.Scanner;
 
-public class Reverse_Number {
+// Here we are just printing it , not making the reverse 
+
+public class Just_Print_Reverse_Number {
 	public static void main(String [] args) {
 		Scanner sc = new Scanner(System.in);
 		
