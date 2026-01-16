@@ -1,12 +1,20 @@
 package patterns_Advanced;
 import java.util.Scanner;
+/*
+ 	*****
+ 	* 	*
+ 	*	*
+ 	*****
+*/
 public class Hollow_Rectangle_Pattern {
 	
 	private static void printHollowPattern(int rows,int cols) {
-		
+		//Outer loops
 		for(int i=1 ; i<= rows ; i++) {
+			//inner Loop
 			for(int j =1 ; j <= cols ; j++) {
 				
+				// Condition
 				if(i==1 || i==rows || j==1 || j==cols) {
 					System.out.print("*");
 				}
