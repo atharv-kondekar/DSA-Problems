@@ -35,6 +35,8 @@ public class Hollow_Rectangle_Pattern {
 		int j = sc.nextInt();
 		
 		printHollowPattern(i,j);
+		
+		sc.close();
 	}
 
 }
