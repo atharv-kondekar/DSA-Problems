@@ -40,6 +40,8 @@ public class Triangle_0_1_Pattern {
 		System.out.print("\n -------------------------------------------\n");
 		System.out.print("Apporach 2 :\n");
 		print_01TrianglePattern02(rows);
+		
+		sc.close();
 	}
 	
 	// Apporach 2 = is better 
