@@ -31,6 +31,7 @@ public class Inverted_Roated_Half_Pyramid {
 		
 		printInvertedRoatedHalfPyramid(rows);
 		
+		sc.close();
 	}
 
 }
