@@ -24,6 +24,8 @@ public class Inverted_Half_Pyramid_With_Numbers {
 		int rows = sc.nextInt();
 		
 		printInvertedHalfPyramidWithNumbers(rows);
+		
+		sc.close();
 	}
 
 }
