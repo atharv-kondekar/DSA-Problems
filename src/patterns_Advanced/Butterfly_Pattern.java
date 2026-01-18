@@ -1,10 +1,10 @@
 package patterns_Advanced;
 import java.util.Scanner;
-/*
-		*      *
+/* 
+		*      *      
 		**    **
 		***  ***
-		********
+		******** rows = 4 
 		********
 		***  ***
 		**    **
