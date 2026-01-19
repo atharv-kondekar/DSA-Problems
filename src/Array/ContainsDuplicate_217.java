@@ -1,4 +1,7 @@
-class Solution {
+package Array;
+import java.util.Arrays;
+
+class ContainsDuplicate_217 {
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
 
