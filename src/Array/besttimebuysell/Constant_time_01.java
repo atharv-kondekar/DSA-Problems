@@ -1,8 +1,6 @@
 package Array.besttimebuysell;
 
-
-
-class Solution {
+class Constant_time_01{
 	
     public int maxProfit(int[] prices) {
         int buy  = 0 ;
@@ -29,5 +27,9 @@ class Solution {
         }
 
         return prices[sell] - prices[buy];
+    }
+    
+    public static void main(String [] args) {
+    	 	//ToDo
     }
 }

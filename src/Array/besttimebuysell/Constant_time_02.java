@@ -1,4 +1,7 @@
-class Solution {
+package Array.besttimebuysell;
+
+class Constant_time_02 {
+	
     public int maxProfit(int[] prices) {
         int minPrice = prices[0];
         int maxProfit = 0;
@@ -9,5 +12,9 @@ class Solution {
         }
 
         return maxProfit;
+    }
+    
+    public static void main(String [] args) {
+    		//toDo
     }
 }
