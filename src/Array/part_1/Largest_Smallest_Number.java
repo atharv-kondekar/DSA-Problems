@@ -9,8 +9,9 @@ public class Largest_Smallest_Number {
 		
 		for(int i=0;i<number.length ; i++) 
 		{
-			if( largest < number[i])
+			if( largest < number[i]) {
 				largest = number[i];
+			}
 		}
 		
 		return largest;
@@ -22,8 +23,9 @@ public class Largest_Smallest_Number {
 		
 		for(int i=0;i<number.length;i++)
 		{
-			if( smallest > number[i])
+			if( smallest > number[i]) {
 				smallest = number[i];
+			}
 		}
 		
 		return smallest;
