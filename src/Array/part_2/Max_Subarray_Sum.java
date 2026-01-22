@@ -32,7 +32,7 @@ public class Max_Subarray_Sum {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = { };
+		int arr[] = {1,2,-1,6,-1,3};
 		System.out.print("The Maximum Sum of the Subarray is : "+maxSubarraySum(arr));
 	}
 
