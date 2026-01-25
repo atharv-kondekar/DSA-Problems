@@ -29,6 +29,8 @@ public class Best_Time_To_Buy_Sell_Stock {
 		// TODO Auto-generated method stub
 		int arr[] = {7,2,5,3,6,4};
 		System.out.print("The Maximum Profit : "+bestTimeToBuySell(arr));
+		
+		
 	}
 	
 }	
