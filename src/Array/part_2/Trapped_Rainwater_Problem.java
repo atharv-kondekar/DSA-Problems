@@ -39,6 +39,8 @@ public class Trapped_Rainwater_Problem {
 		int arr[] = {4,2,0,6,3,2,5};
 		int n = trappedRianWater(arr);
 		System.out.print(n);
+		
+		
 	}
 
 }
