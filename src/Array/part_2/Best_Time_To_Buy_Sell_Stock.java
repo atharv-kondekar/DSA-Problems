@@ -18,7 +18,8 @@ public class Best_Time_To_Buy_Sell_Stock {
 				maxProfit= Math.max(maxProfit, profit);
 			}
 			else {
-				buyPrice = price[i];
+				//buyPrice = price[i];
+				buyPrice = Math.min(price[i], buyPrice);
 			}
 		}
 		return maxProfit;
