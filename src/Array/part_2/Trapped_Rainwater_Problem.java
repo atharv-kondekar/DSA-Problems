@@ -17,6 +17,7 @@ public class Trapped_Rainwater_Problem {
 			left_max[i] = Math.max(left_max[i-1], height[i]);
 		}
 		
+		
 		// right_max Auxiliary Array 
 		right_max[n-1]=height[n-1];
 		
