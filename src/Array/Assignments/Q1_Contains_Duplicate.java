@@ -1,6 +1,6 @@
 package Array.Assignments;
 
-public class Q1_Constains_Duplicate{
+public class Q1_Contains_Duplicate{
 
 	private static boolean containsDuplicate(int []arr)
 	{
