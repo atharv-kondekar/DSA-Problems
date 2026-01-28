@@ -49,7 +49,7 @@ public class Bubble_Sort_Optimized {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr [] = {1,2,3,4,5};
-		bubbleSort(arr);
+		bubbleSort(arr);/*Takes O(n) for the BEST CASE : Sorted Array*/
 	}
 
 }
