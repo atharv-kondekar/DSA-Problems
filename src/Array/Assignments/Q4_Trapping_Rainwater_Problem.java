@@ -1,0 +1,40 @@
+package Array.Assignments;
+
+public class Q4_Trapping_Rainwater_Problem {
+
+	private static int trappedWater(int [] height)
+	{
+		int n = height.length;
+		if(n<=2)
+			return 0;
+		
+		int leftMax[] = new int[n];
+		leftMax[0] = height[0];
+		for(int i=1 ; i< n ;i++ ) {
+			leftMax[i] = Math.max(leftMax[i-1],height[i]);
+		}
+		
+		int rightMax[] = new int[n];
+		rightMax[n-1]=height[n-1];
+		
+		for(int i = n-2 ; i>=0 ; i--) {
+			rightMax[i] = Math.max(rightMax[i+1],height[i]);
+		}
+		
+		int trappedWater = 0;
+		
+		for(int i=0;i<n;i++)
+		{
+			  int waterLevel = Math.min(leftMax[i], rightMax[i]);
+		       trappedWater += Math.max(0, waterLevel - height[i]);
+		}
+		
+		return trappedWater;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int height[] = {4,2,0,3,2,5};
+		System.out.print("Trapped Water : "+ trappedWater(height));
+	}
+
+}
