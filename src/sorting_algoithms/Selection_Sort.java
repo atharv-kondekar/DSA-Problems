@@ -19,7 +19,8 @@ public class Selection_Sort {
 				if(arr[min]>arr[j])
 					min=j;
 			}
-			swap(arr,i,min);
+			if(min != i)
+				swap(arr,i,min);
 		}
 		printArr(arr);
 	}
