@@ -27,10 +27,32 @@ public class All_Sorting_In_Descending_Order {
 		printArr(arr);
 	}
 	
+	private static void selectionSort(int arr[])
+	{
+		int n = arr.length;
+		
+		for(int i = 0 ; i  < n-1 ; i++) {
+			int min = i ;
+			for(int j = i+1 ; j < n ; j++ )
+			{
+				if(arr[min] < arr[j])
+				{
+					min = j;
+				}
+			}
+			
+			if(min!=i)
+				swap(arr,i,min);
+		}
+		
+		printArr(arr);
+	}
+		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr [] = {3,6,2,1,8,7,4,5,3,1};
-		bubbleSortOptimized(arr);
+		//bubbleSortOptimized(arr);
+		selectionSort(arr);
 		
 	}
 	
