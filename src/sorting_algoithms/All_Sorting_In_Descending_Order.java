@@ -47,13 +47,36 @@ public class All_Sorting_In_Descending_Order {
 		
 		printArr(arr);
 	}
+	
+	private static void insertionSort(int arr [])
+	{
+		int n = arr.length;
 		
+		for(int i = 1 ; i < n-1 ; i++ )
+		{
+			int current = arr[i];
+			int prev = i-1;
+			
+			//Finding the right position
+			while( prev >=0 && current > arr[prev])
+			{
+				arr[prev+1]=arr[prev];
+				prev--;
+			}
+			
+			//insertion at right position
+			arr[prev+1] = current;
+		}
+		
+		printArr(arr);
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr [] = {3,6,2,1,8,7,4,5,3,1};
 		//bubbleSortOptimized(arr);
-		selectionSort(arr);
-		
+		//selectionSort(arr);
+		insertionSort(arr);
 	}
 	
 	private static void swap(int arr[] , int i , int j)
