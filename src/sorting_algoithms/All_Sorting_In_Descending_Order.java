@@ -1,5 +1,5 @@
 package sorting_algoithms;
-
+import java.util.Scanner;
 public class All_Sorting_In_Descending_Order {
 	
 	private static void bubbleSortOptimized(int []arr)
@@ -104,7 +104,43 @@ public class All_Sorting_In_Descending_Order {
 		//bubbleSortOptimized(arr);
 		//selectionSort(arr);
 		//insertionSort(arr);
-		countingSort(arr);
+		//countingSort(arr);
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Choose the Sorting technique in Descending order : ");
+		System.out.print("\n1.Bubble Sort\n2.Selection Sort\n3.Insertion Sort\n4.Counting Sort");
+		
+		int choice;
+		System.out.print("\n-------Enter Choice : ");
+		choice = sc.nextInt();
+		
+		switch(choice){
+			case 1:{
+				bubbleSortOptimized(arr);
+				break;
+			}
+			
+			case 2:{
+				selectionSort(arr);
+				break;
+			}
+			
+			case 3:{
+				insertionSort(arr);
+				break;
+			}
+			
+			case 4:
+			{
+				countingSort(arr);
+				break;
+			}
+			
+			default:{
+				System.out.print("Invalid Choice!!!");
+			}
+		}
+		
 	}
 	
 	private static void swap(int arr[] , int i , int j)
