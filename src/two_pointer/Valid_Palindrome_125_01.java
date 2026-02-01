@@ -1,4 +1,6 @@
-class Solution {
+package two_pointer;
+
+class Valid_Palindrome_125_01 {
     // this code beats in 2ms
     public boolean isPalindrome(String s) {
     
