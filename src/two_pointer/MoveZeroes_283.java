@@ -1,4 +1,6 @@
-class Solution {
+package two_pointer;
+
+class MoveZeroes_283{
     public void moveZeroes(int[] nums) {
         if(nums.length == 1 )
             return;
