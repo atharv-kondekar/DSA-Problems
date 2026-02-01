@@ -29,6 +29,8 @@ public class Real_Time_Example {
 			}
 			System.out.print("\n");
 		}
+		
+		sc.close();
 	}
 
 }
