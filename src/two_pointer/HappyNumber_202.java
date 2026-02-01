@@ -1,4 +1,9 @@
-class Solution {
+package two_pointer;
+
+import java.util.HashSet;
+import java.util.Set;
+
+class HappyNumber_202{
     public boolean isHappy(int n) {
         Set<Integer> usedIntegers = new HashSet<>();
 
