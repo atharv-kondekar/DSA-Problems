@@ -1,4 +1,6 @@
-class Solution {
+package two_pointer;
+
+class RemoveDuplicatesFromSortedArray_26 {
     public int removeDuplicates(int[] nums) {
         
         int left=0;
