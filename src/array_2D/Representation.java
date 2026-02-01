@@ -26,6 +26,7 @@ public class Representation {
 			System.out.print("\n");
 		}
 		
+		sc.close();
 	}
 
 }
