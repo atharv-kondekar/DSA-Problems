@@ -1,4 +1,6 @@
-class Solution {
+package two_pointer;
+
+class Remove_Elements_27 {
     public int removeElement(int[] nums, int val) {
         int left = 0;
         int n = nums.length;
