@@ -1,10 +1,12 @@
+package hacker_rank.easy_level;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Solve_me_first{
 
 
 
