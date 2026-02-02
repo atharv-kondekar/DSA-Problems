@@ -1,3 +1,5 @@
+package hacker_rank.easy_level;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -36,7 +38,7 @@ class Result {
 
 }
 
-public class Solution {
+public class Plus_Minus {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
