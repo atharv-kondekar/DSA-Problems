@@ -1,4 +1,4 @@
-class Solution {
+class MaximumProductSubarray_152 {
     public int maxProduct(int[] nums) {
         
         int left = 1 ;
