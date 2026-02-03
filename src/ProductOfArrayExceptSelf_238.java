@@ -1,4 +1,4 @@
-class Solution {
+class ProductOfArrayExceptSelf_238 {
     public int[] productExceptSelf(int[] nums) {
         int [] ansArr = new int[nums.length];
         int [] suffix = new int[nums.length];
