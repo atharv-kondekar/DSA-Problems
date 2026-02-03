@@ -1,4 +1,4 @@
-class Solution {
+class MaximumSubArray_53 {
     public int maxSubArray(int[] nums) {
         int result=nums[0];
         int total=0;
