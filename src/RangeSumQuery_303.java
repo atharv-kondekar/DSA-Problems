@@ -1,8 +1,8 @@
-class NumArray {
+class RangeSumQuery_303 {
 
     private int [] prefix;
 
-    public NumArray(int[] nums) {
+    public RangeSumQuery_303(int[] nums) {
         int n= nums.length;
 
         prefix=new int[n];
