@@ -1,4 +1,4 @@
-class Solution {
+class RemoveDuplicatesFromSortedArray_26 {
     public int removeDuplicates(int[] nums) {
         
         int left=0;
