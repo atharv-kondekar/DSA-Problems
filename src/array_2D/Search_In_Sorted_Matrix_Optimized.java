@@ -2,6 +2,7 @@ package array_2D;
 
 public class Search_In_Sorted_Matrix_Optimized {
 
+	// Time Complexity = O(n+m) 
 	
 	private static boolean staircaseSearch(int matrix[][] , int key )
 	{
