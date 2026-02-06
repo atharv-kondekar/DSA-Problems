@@ -17,6 +17,9 @@ public class StringBuilder_Implementation {
 		}
 		System.out.print("\n"+str2);
 		
+		/*
+			Code 1 & 2 : "" → "a" → "ab" → "abc" → ... → "abcdefghijklmnopqrstuvwxyz"
+		*/
 		
 		StringBuilder sb = new StringBuilder();
 		for(char ch = 'a' ; ch <= 'z' ; ch++ ) {
