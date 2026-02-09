@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class Even_Odd_Without_ModuloOperator {
 
 	private static void evenOdd(int num ) {
+		/*
+			Even number → divisible by 2 → remains same
+			Odd number → remainder lost → result changes
+		*/
 		
 		if( (num/2)*2 == num) {
 			System.out.print("Even Number");
