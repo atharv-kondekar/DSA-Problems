@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Count_Set_Bits_In_Number {
 
 	private static int setBitsCount(int num) {
+		//Set bits is stands for the `1` 
 		int count = 0;
 		
 		while(num>0) {
