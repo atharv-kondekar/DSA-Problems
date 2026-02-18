@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class String_Compression {
 
+	//Time Complexity = O(n) -> Because the same "i" is used by both Loop
 	private static String stringCompression(String str)
 	{
 		StringBuilder sb = new StringBuilder("");
