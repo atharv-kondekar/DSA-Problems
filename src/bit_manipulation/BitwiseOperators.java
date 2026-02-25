@@ -5,6 +5,8 @@ public class BitwiseOperators {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		// All Bitwise Operators 
+		
 		//Bitwise AND operator (&)
 		System.out.print(5 & 6);
 		
@@ -18,11 +20,11 @@ public class BitwiseOperators {
 		System.out.print("\n"+ ~5); // Applies 1's Complement then 2's Complement then uses MSB of the 1's Complement
 		System.out.print("\n"+ ~0);
 	
-		// Bitwise Left Shift (<<)
-		System.out.print("\n"+ (5<<2));
+		// Bitwise Left Shift (<<)       
+		System.out.print("\n"+ (5<<2)); // (a<<b = a * 2 RaiseTo b)
 		
 		// Bitwise Right Shift (>>)
-		System.out.print("\n"+ (5>>2));
+		System.out.print("\n"+ (5>>2)); // (a>>b = a/2 RaiseTo b )
 	}
 
 }
