@@ -17,6 +17,9 @@ public class BitwiseOperators {
 		//Bitwise ones complement 
 		System.out.print("\n"+ ~5); // Applies 1's Complement then 2's Complement then uses MSB of the 1's Complement
 		System.out.print("\n"+ ~0);
+	
+		// Bitwise Left Shift (<<)
+		System.out.print("\n"+ (5<<2));
 	}
 
 }
