@@ -20,6 +20,9 @@ public class BitwiseOperators {
 	
 		// Bitwise Left Shift (<<)
 		System.out.print("\n"+ (5<<2));
+		
+		// Bitwise Right Shift (>>)
+		System.out.print("\n"+ (5>>2));
 	}
 
 }
