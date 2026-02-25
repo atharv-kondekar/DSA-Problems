@@ -6,7 +6,10 @@ public class BitwiseOperators {
 		// TODO Auto-generated method stub
 		
 		//Bitwise AND operator (&)
-		System.out.print( 5 & 6);
+		System.out.print(5 & 6);
+		
+		// Bitwise OR operator(|)
+		System.out.print("\n"+ (5|6) );
 	}
 
 }
