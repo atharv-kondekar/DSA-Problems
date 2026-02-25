@@ -10,6 +10,10 @@ public class BitwiseOperators {
 		
 		// Bitwise OR operator(|)
 		System.out.print("\n"+ (5|6) );
+		
+		// Bitwise XOR operator(^)
+		System.out.print("\n"+ (5^6));
+		
 	}
 
 }
