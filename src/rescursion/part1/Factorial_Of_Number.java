@@ -1,4 +1,5 @@
 package rescursion.part1;
+import java.util.Scanner;
 
 public class Factorial_Of_Number {
 
@@ -12,9 +13,13 @@ public class Factorial_Of_Number {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
 		
-		int n = 1 ; 
+		int n;
+		System.out.print("Enter the Number : ");
+		n = sc.nextInt();
 		System.out.print("Factorial : "+ factorial(n));
+		sc.close();
 	}
 
 }
