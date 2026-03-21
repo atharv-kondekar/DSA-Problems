@@ -45,10 +45,10 @@ public class Last_Occurrence {
 		int arr1[] = {2,3,5,2,10,5,6,5,6,7,8,9,3};
 		
 		if( lastOccurr(arr,key,0) == -1) {
-			System.out.print("Element Not found !!! ");
+			System.out.print("\nElement Not found !!! ");
 		}
 		else {
-			System.out.print("Element found at: "+lastOccurr(arr,key,0)+" position.");
+			System.out.print("\nElement found at: "+lastOccurr(arr,key,0)+" position.");
 		}
 	}
 
