@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-class Result {
+class Result1 {
 
     /*
      * Complete the 'simpleArraySum' function below.
@@ -47,7 +47,7 @@ public class Simple_Array_Sum {
             ar.add(arItem);
         }
 
-        int result = Result.simpleArraySum(ar);
+        int result = Result1.simpleArraySum(ar);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
