@@ -17,6 +17,7 @@ public class Friends_Pairing_Problem {
 		// TODO Auto-generated method stub
 		System.out.println(friendsPairing(3));
 		System.out.println(friendsPairing(4));
+		System.out.println(friendsPairing(5));
 	}
 
 }
